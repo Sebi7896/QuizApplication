@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sand_white"/> <!-- Light gray color for the background -->
+    <corners android:radius="10dp"/> <!-- Rounded corners for the track -->
+    <size android:height="12dp"/> <!-- Thickness of the progress bar -->
+</shape>

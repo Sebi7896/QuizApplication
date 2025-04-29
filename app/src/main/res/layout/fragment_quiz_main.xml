@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.QuizMainFragment">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iacob_sebastian_quiz_main_card_easy_question_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/albastru_verde_mlastina"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@drawable/easy_quiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/CircularImageView" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iacob_sebastian_quiz_main_card_medium_question_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/medium_quiz"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iacob_sebastian_easy_quiz_about_chip"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/cultural_yellow"
+        app:shapeAppearanceOverlay="@style/CircularImageView"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iacob_sebastian_quiz_main_card_hard_question_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/hard_quiz"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iacob_sebastian_medium_quiz_about_chip"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/warm_red"
+        app:shapeAppearanceOverlay="@style/CircularImageView" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/iacob_sebastian_easy_quiz_about_chip"
+        android:contentDescription="@string/todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iacob_sebastian_quiz_main_card_easy_question_button"
+        android:layout_marginHorizontal="10dp"
+        android:textAlignment="center" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/iacob_sebastian_medium_quiz_about_chip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iacob_sebastian_quiz_main_card_medium_question_button"
+        android:layout_marginHorizontal="10dp"
+        android:textAlignment="center" />
+    <com.google.android.material.chip.Chip
+        android:id="@+id/iacob_sebastian_hard_quiz_about_chip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iacob_sebastian_quiz_main_card_hard_question_button"
+        android:layout_marginHorizontal="10dp"
+        android:textAlignment="center" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

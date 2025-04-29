@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:weightSum="5">
+    
+    <TextView
+        android:id="@+id/iacob_sebastian_mihai_name_quiz"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginBottom="2dp">
+        <TextView
+            android:id="@+id/iacob_sebastian_mihai_wrong_answers_text_quiz"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:gravity="center"
+            tools:ignore="NestedWeights" />
+        <ProgressBar
+            android:id="@+id/iacob_sebastian_quiz_wrong_answers_progress_bar_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="100"
+            android:progressTint="@color/hard_red"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:padding="3dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/iacob_sebastian_mihai_linear_layout_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginBottom="2dp">
+        <TextView
+            android:id="@+id/iacob_sebastian_mihai_correct_answers_text_quiz"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:ignore="NestedWeights" />
+        <ProgressBar
+            android:id="@+id/iacob_sebastian_quiz_correct_answers_progress_bar_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="100"
+            android:progressTint="@color/easy_green"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:padding="3dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iacob_sebastian_image_view_grade_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/happy_face"
+        android:layout_margin="3dp"
+        />
+
+    
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/iacob_sebastian_quiz_main_fragment"
+            android:icon="@drawable/quiz_icon"
+            android:title="@string/start" />
+        <item
+            android:id="@+id/iacob_sebastian_quiz_responses_fragment"
+            android:icon="@drawable/list_icon"
+            android:title="@string/quiz_responses" />
+        <item
+            android:id="@+id/iacob_sebastian_about_fragment"
+            android:icon="@drawable/about_icon"
+            android:title="@string/about_slideshow" />
+    </group>
+</menu>

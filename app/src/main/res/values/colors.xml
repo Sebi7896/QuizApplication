@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- colors.xml -->
+
+    <color name="primary_brown">#4B3621</color>
+    <color name="secondary_bej_calcar">#D9CAB3</color>
+    <color name="accent_portocaliu_ocru">#E39423</color>
+    <color name="albastru_verde_mlastina">#8FBC8F</color>
+
+    <color name="easy_green">#A8E6A1</color> <!-- Light Green -->
+    <color name="dark_easy_green">#388E3C</color> <!-- Dark Green -->
+
+    <color name="cultural_yellow">#FFB300</color>
+
+    <color name="hard_red">#FF6659</color> <!-- Light Red -->
+    <color name="dark_hard_red">#D32F2F</color> <!-- Dark Red -->
+    <color name="warm_red">#D94F4F</color>
+
+    <!--background color -->
+    <color name="sand_white">#FAF9F6</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="warm_gray">#A89F94</color>
+    <color name="beij">#b89a77</color>
+    <color name="ivory">#FFF5E1</color>
+    <color name="light_gold">#F8D0A2</color>
+    <color name="olive">#808000</color>
+    <color name="teal">#008080</color>
+    
+
+
+</resources>
